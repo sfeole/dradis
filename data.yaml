@@ -1,0 +1,20 @@
+# Example Output of 
+
+Labs:
+  lab1:
+    maas_url: http://10.10.2.3/MAAS/ 
+    api_key: m7WnHbEJb3X42wX86V:A2gUtQNmpBS75hVfXS:SzVqKyyf8mCeVTVFBCURyTVRDCqbbjrP
+  lab2:
+    maas_url: http://10.10.3.3/MAAS/ 
+    api_key: bdPdNvgfVR9bB7BJ7c:GaGfghDSt6LXG2eAhD:qbjv9NwmqCpUksMS6SCqY8JexrYKn7wJ
+
+Machines:
+  System1:
+    bmc:
+      address: 192.168.2.50
+      user: root
+      password: root
+    console-type: ipmi-sol
+    mac-addresses:
+      -  80:fa:5b:3f:39:ed
+      -  80:fa:5b:3f:39:ef
